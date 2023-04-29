@@ -16,7 +16,7 @@ export class AppComponent {
   onBttonClick() {
     // call WASM and get the UUID
     // console.log(wasm.gen_uuid())
-    this.UUiD = wasm.gen_uuid()
+    this.UUiD = wasm.gen_custom_uuid()
   }
 
 }
