@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
 
-import * as wasm from '../assets/pkg/utils';
 
 @Component({
   selector: 'app-root',
@@ -11,12 +10,6 @@ export class AppComponent {
   title = 'utils_ex';
 
 
-  UUiD: string = ''
 
-  onBttonClick() {
-    // call WASM and get the UUID
-    // console.log(wasm.gen_uuid())
-    this.UUiD = wasm.gen_custom_uuid()
-  }
 
 }

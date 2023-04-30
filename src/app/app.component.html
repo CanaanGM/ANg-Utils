@@ -1,18 +1,9 @@
 <div class="container">
-  <div class="columns is-centered">
-    <div class="box column is-one-third">
-      <h1 class="title has-text-centered">Utils</h1>
-
-
-      <button [disabled]="
-        " (click)="onBttonClick()" class="button is-link is-fullwidth">
-        Generate Guid!
-      </button>
-
-      <div class="box" *ngIf="UUiD">
-        <label>Your Guid</label>
-        <input class="input" [value]="UUiD" />
-      </div>
-    </div>
+    <div class="columns is-centered">
+      <div class="box column is-one-third">
+            <h1 class="title has-text-centered">Utils</h1>
+            
+            <app-guid></app-guid>
+          </div>
   </div>
 </div>
